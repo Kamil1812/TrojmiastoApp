@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200sp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewGdynia"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@color/colorGdynia"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="@string/gdynia"
+            android:textSize="17sp"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/textViewSopot"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="@color/colorSopot"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="@string/sopot"
+            android:textSize="17sp"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/textViewGdansk"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:background="@color/colorGdansk"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="@string/gdansk"
+            android:textSize="17sp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorGdynia">#6F638A</color>
+    <color name="colorSopot">#C766CD</color>
+    <color name="colorGdansk">#FFBF8A5C</color>
+</resources>
